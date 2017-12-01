@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+	
+    <script type="text/javascript" src="jquerymin.js"></script>
+    <script type="text/javascript" src="jquery.barrager.js"></script>
+    <script type="text/javascript">
+
+
+        $(function(){
+            $('canvas').barrager([{"msg":"女神，我爱你！"},{"msg":"老铁，没毛病。。。。"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"思思我爱你~"},{"msg":"女王大人我要抱抱"},{"msg":"妈！我要娶思思！"},{"msg":"思思我爱你~"},{"msg":"妈！我要娶思思！"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"不错不错。。"},{"msg":"妈！我要娶思思！"},{"msg":"思思我爱你~"},{"msg":"思思我爱你~"},{"msg":"思思我爱你~"},{"msg":"思思我爱你~"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"不错不错。。"},{"msg":"思思好漂亮！"},{"msg":"老铁，没毛病。。。。"},{"msg":"思思我爱你~"},{"msg":"思思我爱你~"},{"msg":"思思我爱你~"}]);
+            $('#qc').click(function(){
+               $('canvas').barrager("clear");
+            });
+            $('#tj').click(function(){  
+                $('canvas').barrager([{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"不错不错。。"},{"msg":"妈！我要娶思思！"},{"msg":"妈！我要娶思思！"},{"msg":"妈！我要娶思思！"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"思思我爱你~"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"老铁，没毛病。。。。"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"思思我爱你~"},{"msg":"这是我发的。。。"},{"msg":"这个插件真不错"},{"msg":"以后不要惹思思生气！！！"},{"msg":"以后不要惹思思生气！！！"},{"msg":"以后不要惹思思生气！！！"}]);
+            });
+           setInterval(function(){
+                $('canvas').barrager([{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"思思我爱你~"},{"msg":"以后不要惹思思生气！！！"},{"msg":"以后不要惹思思生气！！！"},{"msg":"以后不要惹思思生气！！！"},{"msg":"老铁，没毛病。。。。"},{"msg":"思思好漂亮！"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"哈哈哈。。。。"},{"msg":"思思我爱你~"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"思思好漂亮！"},{"msg":"女王大人我要抱抱"},{"msg":"傻媳妇真JB帅！！！"},{"msg":"老铁，没毛病。。。。"},{"msg":"思思我爱你~"},{"msg":"女王大人我要抱抱"},{"msg":"女王大人我要抱抱"},{"msg":"女王大人我要抱抱"},{"msg":"女王大人我要抱抱"},{"msg":"女王大人我要抱抱"}]);
+            },2000);
+        })
+    </script>
+
+</head>
+<body>
+
+<!-- <button id="qc" type="button" style="position: fixed;top:0px;left:0px;z-index:20;width: 250px;height: 50px;font-size: 30px;">傻吊别刷屏了！</button> -->
+<!-- <button id="tj" type="button" style="position: fixed;top:0px;left:250px;width: 250px;height: 50px;font-size: 30px;">傻吊手速呢？！</button><br> -->
+<canvas style="position: absolute;top: -50px;z-index: 10;width: 1280px;height: 720px;background: #3B3B3B">你的浏览器不支持canvas</canvas>
+
+</body>
+</html>
